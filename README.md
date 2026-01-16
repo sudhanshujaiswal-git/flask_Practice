@@ -128,6 +128,17 @@ Form pre-filled with student details.
 MIT License
 
 ---
+## Jenkins CI/CD Pipeline
+
+This project uses a Jenkins CI/CD pipeline executed on a central Jenkins server.
+
+### Jenkins Server
+https://jenkinsacademics.herovired.com/
+
+### Pipeline Stages
+1. Build – Install Python dependencies
+2. Test – Run unit tests using pytest
+3. Deploy – Simulated deployment to staging environment
 
 
 
